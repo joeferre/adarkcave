@@ -1,0 +1,7 @@
+---
+layout: post
+title: itBegins
+date: 1999-06-22
+---
+
+it begins
