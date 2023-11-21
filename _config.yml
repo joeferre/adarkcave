@@ -17,6 +17,11 @@ header_pages:
  - about.md
  - nexus.md
 
+
+listen_for_clients_preferred_style: true 
+# allow users to choose light or dark style 
+# based on their preferences (mostly affected by OS theme)
+
 # Build settings
 theme: jekyll-theme-console
 plugins:
