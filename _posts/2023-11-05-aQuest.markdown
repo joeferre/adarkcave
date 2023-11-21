@@ -1,26 +1,26 @@
 ---
 layout: post
 title: A quest for proper backgrounds
-date: 2023-11-17
-picPath: /img/231105_aQuest_/
+date: 2023-11-05
+pics: /img/231105_aQuest_/
 ---
 
 Some time ago I shared this gag on IG:
 
-![comic strip]({{ page.picPath }}1.jpg)
+![comicStrip]({{page.pics}}1.jpg)
 
 Notice the non-existing backgrounds.
 
 There’s a pile of short stories queuing for visual treatment, ( some populate my HDD while others abode by the shelves in countless pieces of paper ). Simply put, I want to infuse them with the depth of perspective without having to redraw every panel. Ultimately I want to stockpile on 3D assets and have fun playing with camera angles. You can do that with pen and paper pretty quick tho, no need for 3D if you are not into that. You don’t need to be a KJG —bow to the master— to doodle depth in a bunch of exploratory thumbnails like you were holding a camera.
 
-![doodles]({{ page.picPath }}2.jpg)
+![doodles]({{page.pics}}2.jpg)
 
 To be honest, these were drawn while watching a TV show ( not from imagination ).
 
 Of course it is not as fast a process as generating some primitives in the viewport and orbiting around with the mouse.
 
 <video width="100%" preload="auto" muted controls>
-    <source src="{{ page.picPath }}BLdemo.mp4" type="video/mp4"/>
+    <source src="{{page.pics}}BLdemo.mp4" type="video/mp4"/>
 </video>
 
 
@@ -28,7 +28,7 @@ Each approach has its cons and pros and usage will depend on your aim. The Blend
 
 The first thing I tried relating the use of Blender for 2D was to reproduce this famous ukiyo-e piece from Hiroshige’s One Hundred Famous Views of Edo.
 
-![Hiroshige]({{ page.picPath }}3b.jpg)
+![Hiroshige]({{page.pics}}3b.jpg)
 
 Clouds, the grad in the pavement AND the texture in Mt. Fuji were handled in PS.
 
@@ -36,27 +36,28 @@ This dates back to mid 2019 when 2.80 was released packing the Eevee raster engi
 
 Emulating the linework was tricky (note the line artifacts produced by freestyle on the left side building in the pic below), but I really enjoyed the process. It was a fun and “cheap” way to get away with something like this, allowing me to place the camera to try new angles.
 
-![Hiroshige in 3D]({{ page.picPath }}4.jpg)
+![HiroshigeIn3D]({{page.pics}}4.jpg)
 
 An additional angle into Hiroshige’s ukiyo-e. You can post-edit panels to get the gritty look of traditional media. Here’s another example on the same topic:
 
-![2.5D comic panel]({{ page.picPath }}5.jpg)
+![2.5DComicPanel]({{page.pics}}5.jpg)
 
 This is a background for a comic that I helped with back in 2020. In this case I wanted to treat colors in PS and I also wanted to be able to change the camera to generate different shots, so I rendered clusters of objects separately to composite the scene later in PS.  
 
-<video width="60%" height="auto" controls>
-  <source src="{{ page.picPath }}PSdemo.mp4" type="video/mp4">
+<video width="100%" preload="auto" muted controls>
+    <source src="{{page.pics}}PSdemo.mp4" type="video/mp4"/>
 </video>
+
 
 This is done using a single shadeless material for all objects in Eevee and rendering your clusters separately with a transparent bg. You can selectively render your clusters by ticking off collections in Blender’s outliner. The key element was to be able to edit the colors of my shapes in PS without affecting the linework, which was also rendered separately in a single pass with the single shared material set to transparent.
 
 After some basic coloring, additional details like glows and grads were achieved using layer styles. Again, you can tweak filters to avoid the digital look and get closer to traditional.
 
-![2.5D comic page]({{ page.picPath }}6.jpg)
+![2.5DComicPage]({{page.pics}}6.jpg)
 
 Final look of one of the pages.
 
-![2.5D comic artwork]({{ page.picPath }}7.jpg)
+![2.5DComicArtwork]({{page.pics}}7.jpg)
 
 And other excerpts from the same project.
 

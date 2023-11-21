@@ -9,14 +9,13 @@ email: fdruiz@gmail.com
 description: >-
   You just entered a dark cave.
 baseurl: ""
-url: "https://adarkcave.github.io"
+url: "https://joeferre.github.io/adarkcave"
 
 style: dark
 header_pages:
  - index.md
  - about.md
  - nexus.md
-
 
 listen_for_clients_preferred_style: true 
 # allow users to choose light or dark style 
