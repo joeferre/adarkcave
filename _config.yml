@@ -8,8 +8,8 @@ title: A dark cave
 email: fdruiz@gmail.com
 description: >-
   You just entered a dark cave.
-baseurl: ""
-url: "https://joeferre.github.io/adarkcave"
+baseurl: "/adarkcave"
+url: "https://joeferre.github.io"
 
 style: dark
 header_pages:
