@@ -47,9 +47,8 @@ img {
 }
 
 /* Media queries */
-
-/* smartphones, iPhone, portrait 480x320 phones */ 
-@media (min-width:320px)  { 
+/* smallest */ 
+@media (max-width:299px)  { 
     body {
         font-size: $mobile-font-size !important;
     }
@@ -57,12 +56,50 @@ img {
         max-width: 16em !important ;
     }
 }
+/* smallererer */ 
+@media (min-width:300px)  { 
+    body {
+        font-size: $mobile-font-size !important;
+    }
+    img { 
+        max-width: 20em !important ;
+    }
+}
+/* smallerer */ 
+@media (min-width:320px)  { 
+    body {
+        font-size: $mobile-font-size !important;
+    }
+    img { 
+        max-width: 23em !important ;
+    }
+}
+
+/* smaller */ 
+@media (min-width:336px)  { 
+    body {
+        font-size: $mobile-font-size !important;
+    }
+    img { 
+        max-width: 26em !important ;
+    }
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:368px)  { 
+    body {
+        font-size: $mobile-font-size !important;
+    }
+    img { 
+        max-width: 28em !important ;
+    }
+}
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px)  { 
 
     img { 
-        max-width: 26em !important; 
+        max-width: 36em !important; 
     }
 }
 
