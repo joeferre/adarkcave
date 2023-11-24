@@ -1,7 +1,7 @@
 ---
 title: adarkcave
 layout: blog
-permalink:
+permalink: /
 ---
 
 You just entered a dark cave.
