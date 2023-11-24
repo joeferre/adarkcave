@@ -8,9 +8,9 @@ title: A dark cave
 email: fdruiz@gmail.com
 description: >-
   You just entered a dark cave.
-baseurl: "/adarkcave"
+baseurl: ""
 url: "https://joeferre.github.io"
-permalink: /:basename/:title:output_ext
+
 style: dark
 
 header_pages:
