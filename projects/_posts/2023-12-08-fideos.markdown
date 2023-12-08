@@ -1,0 +1,8 @@
+---
+layout: post
+title: fideos
+date: 2023-12-08
+pics: /img/231208_noodles_/
+---
+
+![comicStrip]({{page.pics | relative_url}}1.jpg)
