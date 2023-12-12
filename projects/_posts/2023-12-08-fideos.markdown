@@ -9,3 +9,4 @@ pics: /img/231208_noodles_/
 ![comicStrip]({{page.pics | relative_url}}2.jpg)
 ![comicStrip]({{page.pics | relative_url}}3.jpg)
 ![comicStrip]({{page.pics | relative_url}}4.jpg)
+![comicStrip]({{page.pics | relative_url}}5.jpg)
